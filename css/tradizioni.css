@@ -1,0 +1,56 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+}
+header{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+}
+footer{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 162px;
+}
+header a{
+    text-decoration-line: none;
+    color: white;
+    margin-left: 10px;
+}
+img{
+    height: 54px;
+    border: 44px rgb(231, 76, 60) solid;
+    margin: 12px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    z-index: 1;
+    position: absolute;
+    color: white;
+}
+#altare{
+    top: 58px;
+}
+#offerte{
+    top: 226px;
+}
+#processione{
+    top: 392px;
+}
+#Immagine_processione{
+    border-right-width: 67px;
+    border-left-width: 67px;
+}
